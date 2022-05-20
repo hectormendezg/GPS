@@ -41,7 +41,7 @@ services:
 #### configuraciones globales
 networks:
   network_app:
-    name: geo_net
-    driver: bridge
+    name: geo_net #Nombre de la red
+    driver: bridge #Tipo de red
     ipam:
       driver: default
